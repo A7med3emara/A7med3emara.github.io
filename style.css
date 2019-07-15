@@ -1,0 +1,170 @@
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Slabo 27px", serif;
+  background-color: white;
+}
+.title {
+  background: yellow;
+  padding: 5px;
+  text-align: center;
+}
+.header {
+  font-size: 2rem;
+  padding: 60px;
+  text-align: center;
+  background-image: url(background/header.png);
+  background-repeat: repeat-x;
+  background-size: 500px;
+  background-position: bottom left;
+  background-color: #d48166;
+  color: antiquewhite;
+}
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+.navbar a {
+  color: white;
+  font-family: "Righteous", cursive;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Make 2 columns next to each other */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 25px;
+}
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 35px;
+}
+.pp {
+  background-image: url(background/h1.jpg);
+  background-size: cover;
+  color: transparent;
+  float: top;
+  width: 270px;
+  height: 260px;
+  margin: 50px 0 60px 10px;
+  border-radius: 50%;
+  border: 0.7rem solid rgba(204, 59, 15, 0.1);
+}
+.about {
+  background-color: #f3e367;
+  padding: 20px;
+}
+.edu {
+  background-color: #141824;
+  color: #ffd0d0;
+  padding: 20px;
+}
+
+.auc {
+  background-color: #22223a;
+  color: beige;
+  padding: 20px;
+}
+.auc:hover {
+  border: 1px solid #777;
+}
+.helwan {
+  background-color: #f1e821;
+  color: #151516;
+  padding: 20px;
+}
+.pis {
+  background-color: #141824;
+  color: #f1f1f1;
+  padding: 20px;
+}
+.img1 {
+  background-image: url(background/h3.jpg);
+  background-size: cover;
+  color: transparent;
+  height: 300px;
+  border: 0.7rem solid rgba(11, 11, 11, 0.1);
+  border-radius: 30px;
+  background-position-y: -390px;
+}
+.skills {
+  background-color: #f3e367;
+  padding: 20px;
+}
+.activities {
+  background-color: #141824;
+  color: #ffd0d0;
+  padding: 20px;
+}
+.img1:hover {
+  background-color: antiquewhite;
+  background-blend-mode: multiply;
+}
+.main {
+  background-image: url(background/head.png);
+  background-repeat: no-repeat;
+  background-size: 650px;
+  background-position: top right;
+}
+.exp {
+  max-width: 800px;
+}
+.exp h3 {
+  font-size: 2.2rem;
+}
+.sewedy {
+  background-image: url(background/line-png-transparent-3-transparent.png);
+  background-position: bottom right;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+.Tr_courses {
+  background-image: url(background/char.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+footer > div > a > img {
+  height: 50px;
+  margin: 20px;
+  align-content: center;
+}
+footer {
+  flex: 100%;
+  font-family: "Righteous", cursive;
+  /*background-image: url(background/A9.png);*/
+  /* background-size: cover;*/
+  background-color: #151516;
+  background-blend-mode: multiply;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+footer a {
+  display: inline-flex;
+  padding: 0.4em;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
