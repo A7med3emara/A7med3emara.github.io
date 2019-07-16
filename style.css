@@ -12,7 +12,7 @@ body {
   background-color: white;
 }
 .title {
-  background: yellow;
+  background: #333;
   padding: 5px;
   text-align: center;
 }
@@ -20,9 +20,9 @@ body {
   font-size: 2rem;
   padding: 60px;
   text-align: center;
-  background-image: url(background/header.png);
+  background-image: url(background/top1.png);
   background-repeat: repeat-x;
-  background-size: 500px;
+  background-size: cover;
   background-position: bottom left;
   background-color: #d48166;
   color: antiquewhite;
@@ -104,7 +104,8 @@ body {
   height: 300px;
   border: 0.7rem solid rgba(11, 11, 11, 0.1);
   border-radius: 30px;
-  background-position-y: -390px;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 .skills {
   background-color: #f3e367;
@@ -120,9 +121,9 @@ body {
   background-blend-mode: multiply;
 }
 .main {
-  background-image: url(background/head.png);
-  background-repeat: no-repeat;
-  background-size: 650px;
+  background-image: url(background/orange-line-png-19-original.png);
+  background-repeat: repeat;
+  background-size: 60px;
   background-position: top right;
 }
 .exp {
@@ -134,13 +135,15 @@ body {
 .sewedy {
   background-image: url(background/line-png-transparent-3-transparent.png);
   background-position: bottom right;
-  background-size: 700px;
+  background-size: 100% 70px;
   background-repeat: no-repeat;
   padding-bottom: 40px;
 }
 .Tr_courses {
   background-image: url(background/char.png);
   background-repeat: no-repeat;
+  background-size: 35%;
+  /*background-position: bottom right;*/
   background-position: bottom right;
 }
 
@@ -167,4 +170,10 @@ footer a {
   color: white;
   text-decoration: none;
   margin-top: 20px;
+}
+@media screen and (max-width: 700px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
 }
