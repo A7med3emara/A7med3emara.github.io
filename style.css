@@ -3,21 +3,25 @@ h2,
 h3 {
   font-family: "DM Serif Display", serif;
 }
+h3 {
+  font-size: 2rem;
+}
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: "Slabo 27px", serif;
   background-color: white;
 }
-.title {
+.top-title {
   background: #333;
   padding: 5px;
   text-align: center;
 }
 .header {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 60px;
   text-align: center;
   background-image: url(background/top1.png);
@@ -25,7 +29,7 @@ body {
   background-size: cover;
   background-position: bottom left;
   background-color: #d48166;
-  color: antiquewhite;
+  color: rgba(10, 10, 10, 0.7);
 }
 .navbar {
   display: flex;
@@ -49,63 +53,77 @@ body {
 }
 /* Make 2 columns next to each other */
 .side {
-  flex: 30%;
+  flex: 35%;
   background-color: #f1f1f1;
   padding: 25px;
 }
 .main {
-  flex: 70%;
+  flex: 65%;
   background-color: white;
-  padding: 35px;
+  padding: 15px 0px 20px 25px;
 }
 .pp {
   background-image: url(background/h1.jpg);
   background-size: cover;
+  background-position: center;
   color: transparent;
   float: top;
   width: 270px;
   height: 260px;
-  margin: 50px 0 60px 10px;
+  margin: 20px 0 20px 10px;
   border-radius: 50%;
   border: 0.7rem solid rgba(204, 59, 15, 0.1);
 }
 .about {
   background-color: #f3e367;
-  padding: 20px;
+  padding: 5px 15px 5px 15px;
+}
+.p1 {
+  background-color: #f1e821;
+  padding: 10px;
+}
+.p2 {
+  background-color: #f1e821;
+  padding: 10px;
 }
 .edu {
   background-color: #141824;
-  color: #ffd0d0;
-  padding: 20px;
+  color: white;
+  padding: 15px 15px 5px 15px;
 }
 
 .auc {
   background-color: #22223a;
   color: beige;
-  padding: 20px;
+  padding: 15px;
 }
 .auc:hover {
-  border: 1px solid #777;
+  background-color: rgba(22, 22, 23, 0.5);
 }
 .helwan {
   background-color: #f1e821;
   color: #151516;
-  padding: 20px;
+  padding: 15px;
 }
 .pis {
-  background-color: #141824;
-  color: #f1f1f1;
+  background-color: #f3e367;
+  color: black;
   padding: 20px;
 }
 .img1 {
   background-image: url(background/h3.jpg);
-  background-size: cover;
+  background-size: 370px;
+  margin-top: 40px;
   color: transparent;
   height: 300px;
   border: 0.7rem solid rgba(11, 11, 11, 0.1);
-  border-radius: 30px;
+  border-radius: 50px;
   background-position: bottom;
   background-repeat: no-repeat;
+}
+.img1:hover {
+  padding: 5px;
+  background-color: #333;
 }
 .skills {
   background-color: #f3e367;
@@ -113,13 +131,10 @@ body {
 }
 .activities {
   background-color: #141824;
-  color: #ffd0d0;
+  color: white;
   padding: 20px;
 }
-.img1:hover {
-  background-color: antiquewhite;
-  background-blend-mode: multiply;
-}
+
 .main {
   background-image: url(background/orange-line-png-19-original.png);
   background-repeat: repeat;
@@ -132,12 +147,23 @@ body {
 .exp h3 {
   font-size: 2.2rem;
 }
+.title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.crc,
+.east-delta,
+.geosol,
+.zafarana,
+.aoi,
 .sewedy {
-  background-image: url(background/line-png-transparent-3-transparent.png);
-  background-position: bottom right;
-  background-size: 100% 70px;
-  background-repeat: no-repeat;
-  padding-bottom: 40px;
+  background-color: rgba(255, 154, 0, 0.3);
+  padding: 1px 10px 3px 7px;
+  margin: 0 0 10px 5px;
+}
+.crc {
+}
+.east-delta {
 }
 .Tr_courses {
   background-image: url(background/char.png);
@@ -146,7 +172,12 @@ body {
   /*background-position: bottom right;*/
   background-position: bottom right;
 }
-
+/*.course {
+  background-color: rgba(10, 10, 10, 0.9);
+  margin: 0 50px 7px 5px;
+  padding: 1px 10px 5px 12px;
+  color: white;
+}*/
 footer > div > a > img {
   height: 50px;
   margin: 20px;
