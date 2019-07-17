@@ -1,4 +1,4 @@
-h1,
+<<<<<<< head h1,
 h2,
 h3 {
   font-family: "DM Serif Display", serif;
@@ -28,8 +28,8 @@ body {
   background-repeat: repeat-x;
   background-size: cover;
   background-position: bottom left;
-  background-color: #d48166;
-  color: rgba(10, 10, 10, 0.7);
+  background-color: #e40c2b;
+  color: rgba(5, 5, 5, 0.8);
 }
 .navbar {
   display: flex;
@@ -60,7 +60,7 @@ body {
 .main {
   flex: 65%;
   background-color: white;
-  padding: 15px 0px 20px 25px;
+  padding: 15px 17px 20px 15px;
 }
 .pp {
   background-image: url(background/h1.jpg);
